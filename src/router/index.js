@@ -47,6 +47,11 @@ export default new Router({
           path: 'charts',
           name: 'Charts',
           component: Charts
+        },
+        {
+          path: 'warehouse',
+          name: 'Warehouse',
+          component: BasicTable
         }
       ]
     },
